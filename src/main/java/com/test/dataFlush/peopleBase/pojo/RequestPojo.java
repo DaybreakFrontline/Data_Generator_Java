@@ -1,4 +1,4 @@
-package com.test.dataFlush.PeopleBase.pojo;
+package com.test.dataFlush.peopleBase.pojo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;

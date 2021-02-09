@@ -1,6 +1,4 @@
-package com.test.dataFlush.PeopleBase.service;
-
-import com.test.dataFlush.PeopleBase.pojo.UserBasic;
+package com.test.dataFlush.peopleBase.service;
 
 import java.util.Date;
 

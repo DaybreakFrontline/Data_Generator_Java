@@ -1,4 +1,4 @@
-package com.test.dataFlush.PeopleBase.pojo;
+package com.test.dataFlush.peopleBase.pojo;
 
 // K_USER_BASIC
 

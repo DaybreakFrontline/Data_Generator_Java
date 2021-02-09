@@ -1,9 +1,9 @@
-package com.test.dataFlush.PeopleBase.service;
+package com.test.dataFlush.peopleBase.service;
 
-import com.test.dataFlush.PeopleBase.mapper.UserServiceMapper;
-import com.test.dataFlush.PeopleBase.utils.*;
-import com.test.dataFlush.PeopleBase.utils.nameGenerator.JobGenerator;
-import com.test.dataFlush.PeopleBase.utils.nameGenerator.NameMaker;
+import com.test.dataFlush.peopleBase.mapper.UserServiceMapper;
+import com.test.dataFlush.peopleBase.utils.*;
+import com.test.dataFlush.peopleBase.utils.nameGenerator.JobGenerator;
+import com.test.dataFlush.peopleBase.utils.nameGenerator.NameMaker;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

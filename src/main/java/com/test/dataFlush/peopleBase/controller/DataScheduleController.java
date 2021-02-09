@@ -1,7 +1,7 @@
-package com.test.dataFlush.PeopleBase.controller;
+package com.test.dataFlush.peopleBase.controller;
 
-import com.test.dataFlush.PeopleBase.pojo.RequestPojo;
-import com.test.dataFlush.PeopleBase.service.UserService;
+import com.test.dataFlush.peopleBase.pojo.RequestPojo;
+import com.test.dataFlush.peopleBase.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 

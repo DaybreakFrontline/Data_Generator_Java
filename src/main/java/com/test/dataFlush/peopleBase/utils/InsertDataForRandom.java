@@ -1,6 +1,6 @@
-package com.test.dataFlush.PeopleBase.utils;
-import com.test.dataFlush.PeopleBase.utils.nameGenerator.JobGenerator;
-import com.test.dataFlush.PeopleBase.utils.nameGenerator.NameMaker;
+package com.test.dataFlush.peopleBase.utils;
+import com.test.dataFlush.peopleBase.utils.nameGenerator.JobGenerator;
+import com.test.dataFlush.peopleBase.utils.nameGenerator.NameMaker;
 import org.springframework.stereotype.Component;
 
 import java.sql.Connection;

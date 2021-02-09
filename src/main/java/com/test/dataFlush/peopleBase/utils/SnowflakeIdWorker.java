@@ -1,4 +1,4 @@
-package com.test.dataFlush.PeopleBase.utils;
+package com.test.dataFlush.peopleBase.utils;
 
 import java.util.UUID;
 

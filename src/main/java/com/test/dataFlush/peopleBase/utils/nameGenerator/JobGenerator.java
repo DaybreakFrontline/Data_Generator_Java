@@ -1,4 +1,4 @@
-package com.test.dataFlush.PeopleBase.utils.nameGenerator;
+package com.test.dataFlush.peopleBase.utils.nameGenerator;
 
 public class JobGenerator {
 

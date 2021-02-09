@@ -3,7 +3,7 @@
  * 作者： kangb
  * 创建日期：2009.8.13
  */
-package com.test.dataFlush.PeopleBase.utils.nameGenerator;
+package com.test.dataFlush.peopleBase.utils.nameGenerator;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Random;
