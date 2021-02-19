@@ -76,10 +76,11 @@ public class UserServiceImpl extends Thread implements UserService{
         long begin = new Date().getTime();
         String sql = "INSERT INTO K_USER_BASIC (ID,NAME,ADDRES,JOB,PHONE,TIME,IDENTITY, CREATE_DATE) VALUES\n" +
                 "(?,?,?,?,?,DATE_FORMAT(?,\"%Y-%m-%d %T\") , ?, NOW())";
+        PreparedStatement pst = null;
         try {
             StringBuilder sqls = new StringBuilder();
             conn.setAutoCommit(false);
-            PreparedStatement pst = conn.prepareStatement(sql);
+            pst = conn.prepareStatement(sql);
             System.out.println(i1 / 100);
             //编写事务
             for(int i = 1; i <= i1 / 100; i++){
@@ -115,11 +116,16 @@ public class UserServiceImpl extends Thread implements UserService{
                     break;
                 }
             }
-            pst.close();
-            conn.close();
             System.out.println("全部结束！！！！");
         } catch (SQLException e) {
             e.printStackTrace();
+        }finally {
+            try {
+                pst.close();
+                conn.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
         }
         // 结束时间
         Long end = new Date().getTime();
