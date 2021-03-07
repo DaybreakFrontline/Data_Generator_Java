@@ -2,6 +2,9 @@ package com.test.dataFlush.redis;
 
 import org.springframework.util.StringUtils;
 
+/**
+ *  注释
+ */
 public enum CtimsModelEnum {
     CTIMS_COMM_CAP("comm", "公共");
 
