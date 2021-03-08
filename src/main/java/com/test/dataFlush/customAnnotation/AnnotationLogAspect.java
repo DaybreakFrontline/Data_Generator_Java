@@ -34,7 +34,7 @@ import java.util.Map;
 public class AnnotationLogAspect {
 
     /**
-     * 声明切点，
+     * 声明切点， s
      */
     @Pointcut("@annotation(com.test.dataFlush.customAnnotation.AnnotationLog)")
     private void pointcut(){}
